@@ -11,13 +11,13 @@
     "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
     "servers": [
         {
-            "id": "WesterosCraft-1.11.2",
-            "name": "WesterosCraft Production Server",
-            "description": "Main WesterosCraft server. Connect to enter the Realm.",
+            "id": "JustLifeRP 1.12.2",
+            "name": "JustLifeRP - Serveur Roleplay 1.12.2",
+            "description": "JustLifeRP est un serveur minecraft basé sur GTA RP.",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "3.9.4",
-            "address": "mc.westeroscraft.com",
-            "minecraftVersion": "1.11.2",
+            "version": "1.0.0",
+            "address": "173.249.26.93:25566",
+            "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "Production",
                 "largeImageText": "WesterosCraft Production Server",
@@ -27,13 +27,13 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "id": "net.minecraftforge:forge-1.12.2-14.23.5.2855",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
                         "size": 4450992,
-                        "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                        "MD5": "8f4a97f8796e13b49a98abe3909fd246",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-installer.jar"
                     },
                     "subModules": [
                         {
@@ -42,7 +42,7 @@
                             "type": "Library",
                             "artifact": {
                                 "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "MD5": "8f4a97f8796e13b49a98abe3909fd246",
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
                             }
                         },
@@ -217,27 +217,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
-                    "name": "WesterosBlocks",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 17376788,
-                         "MD5": "370f4f1804c93f498f31af8dac509605",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/WesterosBlocks.jar"
-                    }
-                },
-                {
-                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 46999843,
-                        "MD5": "309eb9e5296e9f55cfecb7d4058245a4",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/resourcepacks/WesterosCraft.zip"
-                    }
                 },
                 {
                     "id": "net.optifine:optifine:1.11.2_HD_U_C7",
